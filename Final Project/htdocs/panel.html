@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Panel Administratora</title>
+<link rel="stylesheet" href="css/styless.css"  charset='utf-8'/>
+</head>
+
+<body>
+
+<div class="header">
+	<input type="text" id="searchKey"/>
+	<button id="btnSearch">Szukaj</button>
+<!--	<button id="btnAdd">Dodaj grę</button>-->
+</div>
+
+
+<div class="leftArea" style="color:#0000FF">
+<ul id="gameList"></ul>
+</div>
+
+<form id="gameForm" accept-charset="utf-8">
+	
+<div class="mainArea">
+
+<label>Id:</label>
+<input id="gameId" name="id" type="text" disabled />
+
+<label>Nazwa gry:</label>
+<input type="text" id="nazwa" name="nazwa" required>
+
+<label>Gatunek:</label>
+<input type="text" id="gatunek" name="gatunek"/>
+
+<label>Wydawca:</label>
+<input type="text" id="wydawca" name="wydawca"/>
+
+<label>Platformy:</label>
+<input type="text" id="platformy" name="platformy"/>
+
+
+<label>Rok wydania ŚWIAT</label>
+<input type="text" id="rok_wydania_swiat" name="rok_wydania_swiat"/>
+
+
+
+<label>Rok wydania POLSKA</label>
+<input type="text" id="rok_wydania_polska" name="rok_wydania_polska"/>
+
+
+
+<label>Dodał</label>
+<input type="text" id="dodal" name="dodal"/>
+
+<label>Czas dodania</label>
+<input type="text" id="dodano_czas" name="dodano_czas"/>
+
+<label>Zatwierdzone</label>
+<input type="text" id="zatwierdzone" name="zatwierdzone"/>
+
+
+
+
+
+<br>
+<button id="btnSave">Zapisz</button>
+<button id="btnDelete">Usuń</button>
+
+
+</div>
+
+
+<div class="rightArea">
+<!--<img src='https://gn4xew-bn1305.files.1drv.com/y2pFAWDMX8JTJU1QmUwWHWKtr8M0rq4bwTHA0VcyTga410Fbh_3qnSmeHUmKiYF32FbexkGHlwu5RhIUYWIdoglZUOPc4RrfPjncKYEjBYYSEx5lxqYHOkstZAMmNs5HKZa_aNGx75CYuChW4_kiT4eIQ/farcry3.jpg?psid=1'/>
+<img src="https://gn4xew-bn1305.files.1drv.com/y2pFAWDMX8JTJU1QmUwWHWKtr8M0rq4bwTHA0VcyTga410Fbh_3qnSmeHUmKiYF32FbexkGHlwu5RhIUYWIdoglZUOPc4RrfPjncKYEjBYYSEx5lxqYHOkstZAMmNs5HKZa_aNGx75CYuChW4_kiT4eIQ/farcry3.jpg?psid=1" id="picture2" name="picture" height="300"/>
+
+
+<label>Okładka</label>
+ <a href="#"><textarea src="picture" id="picture" name="picture"></textarea></a>-->
+
+
+
+
+<label>Opis:</label>
+<textarea id="opis" name="opis" ></textarea>
+</div>
+
+<div class="bottomArea">
+<label>Okładka </label>
+<textarea id="okladka" name="okladka"></textarea>
+</div>
+
+
+<div class="middleArea">
+<label>Trailer </label>
+<textarea id="trailer" name="trailer"></textarea>
+</div>
+
+</form>
+
+
+<script src="js/jquery-1.7.1.min.js" charset="UTF-8"></script>
+<script src="js/main.js" charset="UTF-8"></script>
+
+</body>
+</html>
